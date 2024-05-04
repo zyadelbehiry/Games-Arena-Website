@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About</title>
+
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="bg-gray-800 text-gray-200 font-myFont">
+    <header
+      class="flex justify-between items-center p-5 border-b-2 border-gray-600"
+    >
+      <div
+        class="title text-3xl font-bold mobile:w-full mobile:flex mobile:justify-between md:w-fit md:block"
+      >
+        <p><i class="bx bxs-face-mask"></i> Games Arena</p>
+        <div class="md:hidden">
+          <i class="bx bx-menu text-white font-bold text-4xl"></i>
+        </div>
+      </div>
+      <div
+        class="mobile:hidden md:flex gap-5 items-center font-semibold cursor-pointer caret-transparent"
+      >
+        <div class="login">
+          <a href="./login.html" class="btns">Log in</a>
+        </div>
+        <div class="signup">
+          <a href="./SignUp.html" class="btns">Sign up</a>
+        </div>
+      </div>
+      <div
+        class="side-menu md:hidden absolute right-0 top-0 py-3 text-black text-right"
+      >
+        <ul class="side-list hidden absolute w-full top-0 right-0 z-10">
+          <li class="exit text-right text-white font-semibold bg-gray-700">
+            <p class="px-3 text-xl caret-transparent cursor-pointer">X</p>
+          </li>
+          <li class="side login">
+            <a href="./login.html" class="w-full">Login</a>
+          </li>
+          <li class="side sign-up"><a href="./SignUp.html">Sign Up</a></li>
+          <li class="side home"><a href="./index.html">Home</a></li>
+          <li class="side about"><a href="./about.html">About</a></li>
+          <li class="side contact"><a href="./contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </header>
+    <div class="main-container px-10 grid grid-cols-5 mobile:w-full">
+      <div class="navigation p-r-5 mt-5 mobile:hidden md:block">
+        <div class="links font-semibold caret-transparent">
+          <div class="link link-hover">
+            <div class="icon">
+              <i class="bx bxs-home"></i>
+            </div>
+            <div class="text text-gray-50"><a href="./index.html">Home</a></div>
+          </div>
+
+          <div class="link link-hover active-nav">
+            <div class="icon"><i class="bx bxs-help-circle"></i></div>
+            <div class="text"><a href="./about.html">About</a></div>
+          </div>
+
+          <div class="link link-hover">
+            <div class="icon"><i class="bx bxs-envelope"></i></div>
+            <div class="text"><a href="./contact.html">Contact</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./scripts/shared.js"></script>
+</html>
