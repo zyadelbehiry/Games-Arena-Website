@@ -6,7 +6,7 @@ load_more.addEventListener("click", function () {
 <div class="cards">
   <div class="card">
     <div class="image">
-      <img src="img/assassins-creed-mirage.jpg" class="image" />
+      <img src="/dist/img/assassins-creed-mirage.jpg" class="image" />
     </div>
     <div class="title">
       <div class="main-title">Assassin's Creed Mirage</div>
@@ -16,7 +16,7 @@ load_more.addEventListener("click", function () {
   </div>
   <div class="card">
     <div class="image">
-      <img src="img/assassins-creed-mirage.jpg" class="image" />
+      <img src="/dist/img/assassins-creed-mirage.jpg" class="image" />
     </div>
     <div class="title">
       <div class="main-title">Assassin's Creed Mirage</div>
@@ -26,7 +26,7 @@ load_more.addEventListener("click", function () {
   </div>
   <div class="card">
     <div class="image">
-      <img src="img/assassins-creed-mirage.jpg" class="image" />
+      <img src="/dist/img/assassins-creed-mirage.jpg" class="image" />
     </div>
     <div class="title">
       <div class="main-title">Assassin's Creed Mirage</div>
